@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Форма бронирования переговорной</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="form-container">
+		<h2>Форма бронирования переговорной</h2>
+		<form id="booking-form">
+			<div class="form-group">
+				<label for="tower-select">Выберите башню:</label>
+				<select id="tower-select">
+					<option disabled selected>Выберите башню</option>
+					<option value="A">Башня А</option>
+					<option value="B">Башня Б</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="floor-select">Выберите этаж:</label>
+				<select id="floor-select">
+					<option disabled selected>Выберите этаж</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+					<option value="22">22</option>
+					<option value="23">23</option>
+					<option value="24">24</option>
+					<option value="25">25</option>
+					<option value="26">26</option>
+					<option value="27">27</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="room-select">Выберите переговорку:</label>
+				<select id="room-select">
+					<option disabled selected>Выберите переговорку</option>
+					<option value="1">П1</option>
+					<option value="2">П2</option>
+					<option value="3">П3</option>
+					<option value="4">П4</option>
+					<option value="5">П5</option>
+					<option value="6">П6</option>
+					<option value="7">П7</option>
+					<option value="8">П8</option>
+					<option value="9">П9</option>
+					<option value="10">П10</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="date-input">Выберите дату:</label>
+				<input type="date" id="date-input">
+			</div>
+			<div class="form-group">
+				<label for="start-time-input">Начало:</label>
+				<input type="time" id="start-time-input">
+			</div>
+			<div class="form-group">
+				<label for="end-time-input">Конец:</label>
+				<input type="time" id="end-time-input">
+			</div>
+			<div class="form-group">
+				<label for="comment-textarea">Комментарий:</label>
+				<textarea id="comment-textarea" rows="3"></textarea>
+			</div>
+			<div class="form-buttons">
+				<button type="submit" id="submit-button">Отправить</button>
+				<button type="reset" id="reset-button">Очистить</button>
+			</div>
+		</form>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
