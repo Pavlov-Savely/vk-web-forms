@@ -1,0 +1,93 @@
+.invalid {
+  box-shadow: 0 0 5px #ff0000;
+}
+
+.valid {
+  box-shadow: 0 0 5px #00ff00;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #292929;
+      padding: 20px;
+    margin: 50px auto;
+    max-width: 500px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+select, input[type="date"], input[type="time"], textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+select option[disabled] {
+    color: #7f8c8d;
+}
+
+select:focus, input[type="date"]:focus, input[type="time"]:focus, textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #3498db;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button[type="submit"], button[type="reset"] {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover, button[type="reset"]:hover {
+    background-color: #2980b9;
+}
+
+button[type="submit"]:focus, button[type="reset"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #3498db;
+}
+
